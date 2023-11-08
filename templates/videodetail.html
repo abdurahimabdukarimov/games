@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+ <div class="col-md-6">
+            <div class="image_2"><img src="{{video.img.url}}"></div>
+            <div class="price_text">{{video.price}}$ <span style="color: #3a3a38;">200</span></div>
+            <h1 class="game_text">{{video.name}}</h1>
+            <p class="long_text">{{video.bio}}</p>
+          </div>
+{% endblock content %}
